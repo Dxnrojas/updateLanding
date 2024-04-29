@@ -1,0 +1,108 @@
+{ "productos":
+    [
+        {
+            "id": 1,
+            "img": "https://github.com/Dxnrojas/SanCamiloFinalProject/blob/main/Parcial-I/resources/producto2.png",
+            "name": "Mini Fluffys Biscoff",
+            "price": "$23.800"
+        },
+    
+        {
+            "id": 2,
+            "img": "https://github.com/Dxnrojas/SanCamiloFinalProject/blob/main/Parcial-I/resources/producto1.png",
+            "name": "Mini Fluffys Clasicos",
+            "price": "$19.800"
+        },
+    
+        {
+            "id": 3,
+            "img" : "https://github.com/Dxnrojas/SanCamiloFinalProject/blob/main/Parcial-I/resources/producto4.png",
+            "name": "Mini Fluffys de Fresa",
+            "price": "$22.900"
+        },
+    
+        {
+            "id": 4,
+            "img" : "https://github.com/Dxnrojas/SanCamiloFinalProject/blob/main/Parcial-I/resources/producto5.png",
+            "name": "Baggel de Queso Crema",
+            "price": "$17.500"
+        },
+    
+        {
+            "id": 5,
+            "img": "https://github.com/Dxnrojas/SanCamiloFinalProject/blob/main/Parcial-I/resources/producto3.png",
+            "name": "Mini Fluffys Nutella",
+            "price": "$22.900"
+        },
+    
+        {
+            "id": 6,
+            "img": "https://github.com/Dxnrojas/SanCamiloFinalProject/blob/main/Parcial-I/resources/producto6.png",
+            "name": "Croissant de Tocineta",
+            "price": "$23.800"
+        },
+    
+        {
+            "id": 7,
+            "img": "https://github.com/Dxnrojas/SanCamiloFinalProject/blob/main/Parcial-I/resources/producto7.png",
+            "name": "Desayuno Américano",
+            "price": "$19.800"
+        },
+    
+        {
+            "id": 8,
+            "img": "https://github.com/Dxnrojas/SanCamiloFinalProject/blob/main/Parcial-I/resources/producto8.png",
+            "name": "Croissant Jamón",
+            "price": "$28.000"
+        },
+    
+        {
+            "id": 9,
+            "img": "https://github.com/Dxnrojas/SanCamiloFinalProject/blob/main/Parcial-I/resources/producto9.png",
+            "name": "Patty Croissant",
+            "price": "$28.500"
+        },
+    
+        {
+            "id": 10,
+            "img": "https://github.com/Dxnrojas/SanCamiloFinalProject/blob/main/Parcial-I/resources/producto10.png",
+            "name": "Sándwich Caprese",
+            "price": "$26.000"
+        },
+
+        {
+            "id": 11,
+            "img": "https://github.com/Dxnrojas/SanCamiloFinalProject/blob/main/Parcial-I/resources/producto11.png",
+            "name": "Capuccino Biscoff",
+            "price": "$15.600"
+        },
+
+        {
+            "id": 12,
+            "img": "https://github.com/Dxnrojas/SanCamiloFinalProject/blob/main/Parcial-I/resources/producto12.png",
+            "name": "Mocaccino",
+            "price": "$11.700"
+        },
+
+        {
+            "id": 13,
+            "img": "https://github.com/Dxnrojas/SanCamiloFinalProject/blob/main/Parcial-I/resources/producto13.png",
+            "name":"Capuccino",
+            "price": "$9.800"
+        },
+
+        {
+            "id": 14,
+            "img": "https://github.com/Dxnrojas/SanCamiloFinalProject/blob/main/Parcial-I/resources/producto14.png",
+            "name": "Capuccino Baileys",
+            "price": "$15.800"
+        },
+
+        {
+            "id": 15,
+            "img": "https://github.com/Dxnrojas/SanCamiloFinalProject/blob/main/Parcial-I/resources/producto15.png",
+            "name": "Cafe Latte",
+            "price": "$9.800"
+        }
+    ]
+}
