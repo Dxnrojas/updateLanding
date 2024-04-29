@@ -3,3 +3,5 @@ export const productos = async () => {
     const data = await response.json();
     return data;
 };
+
+//Esto es una prueba de un commit
