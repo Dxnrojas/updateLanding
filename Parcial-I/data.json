@@ -3,7 +3,7 @@
     [
         {
             "id": 1,
-            "img": "https://github.com/Dxnrojas/SanCamiloFinalProject/blob/main/Parcial-I/resources/producto2.png",
+            "img": "https://raw.githubusercontent.com/Dxnrojas/SanCamiloFinalProject/main/Parcial-I/resources/producto2.png",
             "name": "Mini Fluffys Biscoff",
             "price": "$23.800"
         },
