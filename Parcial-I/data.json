@@ -5,14 +5,17 @@
             "id": 1,
             "img": "https://raw.githubusercontent.com/Dxnrojas/SanCamiloFinalProject/main/Parcial-I/resources/producto2.png",
             "name": "Mini Fluffys Biscoff",
-            "price": "$23.800"
+            "price": "$23.800",
+            "favorite": true,
+            "description":
         },
     
         {
             "id": 2,
             "img": "https://github.com/Dxnrojas/updateLanding/blob/main/Parcial-I/resources/producto1.png?raw=true",
             "name": "Mini Fluffys Clasicos",
-            "price": "$19.800"
+            "price": "$19.800",
+            "favorite": false
         },
     
         {
@@ -70,7 +73,8 @@
             "id": 10,
             "img": "https://github.com/Dxnrojas/updateLanding/blob/main/Parcial-I/resources/producto10.png?raw=true",
             "name": "Sándwich Caprese",
-            "price": "$26.000"
+            "price": "$26.000",
+            "description":
         }
     ],
     "bebidasCaliente":[
