@@ -6,7 +6,6 @@
             "img": "https://raw.githubusercontent.com/Dxnrojas/SanCamiloFinalProject/main/Parcial-I/resources/producto2.png",
             "name": "Mini Fluffys Biscoff",
             "price": "$23.800",
-            "favorite": true,
             "description": "10 mini pancakes cubiertos de yogurt griego, crema y crumble de Biscoff."
 
         },
@@ -50,7 +49,7 @@
             "img": "https://github.com/Dxnrojas/updateLanding/blob/main/Parcial-I/resources/producto6.png?raw=true",
             "name": "Croissant de Tocineta",
             "price": "$23.800",
-            "description":
+            "description": "Huevo al gusto con queso, aguacate y tocineta crocante."
         },
     
         {
@@ -58,7 +57,7 @@
             "img": "https://github.com/Dxnrojas/updateLanding/blob/main/Parcial-I/resources/producto7.png?raw=true",
             "name": "Desayuno Américano",
             "price": "$19.800",
-            "description":
+            "description": "Huevos al gusto acompañados de 3 pequeños patties de carne, hash brown y mantequilla de aguacate."
         },
     
         {
@@ -66,7 +65,7 @@
             "img": "https://github.com/Dxnrojas/updateLanding/blob/main/Parcial-I/resources/producto8.png?raw=true",
             "name": "Croissant Jamón",
             "price": "$28.000",
-            "description":
+            "description": "Huevos al gusto con queso, aguacate y jamón serrano."
         },
     
         {
@@ -74,7 +73,7 @@
             "img": "https://github.com/Dxnrojas/updateLanding/blob/main/Parcial-I/resources/producto9.png?raw=true",
             "name": "Patty Croissant",
             "price": "$28.500",
-            "description":
+            "description": "Huevos al gusto con patties de carne, queso, aguacate y tocineta crocante."
         },
     
         {
@@ -82,7 +81,7 @@
             "img": "https://github.com/Dxnrojas/updateLanding/blob/main/Parcial-I/resources/producto10.png?raw=true",
             "name": "Sándwich Caprese",
             "price": "$26.000",
-            "description":
+            "description": "Base de croissant integral con salsa pesto, mozzarella de búfala y tomates confitados en vinagre balsámico."
         }
     ],
     "bebidasCaliente":[
@@ -107,7 +106,7 @@
             "img": "https://github.com/Dxnrojas/updateLanding/blob/main/Parcial-I/resources/producto13.png?raw=true",
             "name":"Capuccino",
             "price": "$9.800",
-            "description":
+            "description": "Café, leche, espuma texturizada y su sabor es un poco más consistente."
         },
 
         {
@@ -115,7 +114,7 @@
             "img": "https://github.com/Dxnrojas/updateLanding/blob/main/Parcial-I/resources/producto14.png?raw=true",
             "name": "Capuccino Baileys",
             "price": "$15.800",
-            "description":
+            "description": "Capuccino con un shot de Baileys."
         },
 
         {
@@ -123,7 +122,7 @@
             "img": "https://github.com/Dxnrojas/updateLanding/blob/main/Parcial-I/resources/producto15.png?raw=true",
             "name": "Cafe Latte",
             "price": "$9.800",
-            "description":
+            "description": "Café de origen elaborado con espresso y leche al vapor."
         }
     ],
     "morePanaderia":[
@@ -132,6 +131,6 @@
         },
         {
 
-        },
+        }
     ]
 }
