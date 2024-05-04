@@ -32,8 +32,30 @@ export class panaderia{
         imgBlockInnerblocks.alt = this.name;
         block__innerblocks.appendChild(imgBlockInnerblocks);
 
+        const bottomblock = document.createElement ('div');
+        bottomblock.classList.add("block__bottomblock");
+        
+
+        const title = document.createElement("p");
+        title.classList.add("block__bottomblock--letras");
+        title.textContent = this.name
+        bottomblock.appendChild(title);
+
+        const priceElement = document.createElement("p");
+        priceElement.innerText = this.price;
+        bottomblock.appendChild(priceElement);
+
+        const button = document.createElement("input");
+        button.classList.add("more");
+        button.value = "More"
+        bottomblock.appendChild(button);
+
+        block.appendChild(bottomblock)
+
+
         return block;
     }
-}
 
-//Esto es una prueba de un commit
+
+
+}
