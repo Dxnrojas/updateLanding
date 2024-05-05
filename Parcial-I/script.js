@@ -1,4 +1,4 @@
-import { obtenerProductos, panaderia } from "./utils.js";
+import { obtenerProductos, panaderia, brunch, bebidasCaliente} from "./utils.js";
 
 const render = async () => {
 
@@ -21,18 +21,33 @@ const render = async () => {
 
     const campo2 = document.querySelector("#campo2");
 
-    for (const product of data.brunch){
-        const brunch = new brunch(
-            product.id,
-            product.img,
-            product.name,
-            product.price,
-            product.nodo,
+    for (const producto of data.brunch){
+        const miBrunch = new brunch (
+            producto.id,
+            producto.img,
+            producto.name,
+            producto.price,
+            producto.nodo,
         );
-        const productRender = brunch.render();
+        const productoRender = miBrunch.render();
 
-        campo2.appendChild(productRender);
-    };
+        campo2.appendChild(productoRender);
+     };
+
+    const campo3 = document.querySelector("#campo3");
+
+    for (const producto of data.bebidasCaliente){
+        const bebidasCalientes = new bebidasCaliente (
+            producto.id,
+            producto.img,
+            producto.name,
+            producto.price,
+            producto.nodo,
+        );
+        const productoRender = bebidasCalientes.render();
+
+        campo3.appendChild(productoRender);
+     };
     
 };
 
