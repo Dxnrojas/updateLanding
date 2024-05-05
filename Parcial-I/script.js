@@ -18,6 +18,22 @@ const render = async () => {
 
         campo1.appendChild(productoRender);
     };
+
+    const campo2 = document.querySelector("#campo2");
+
+    for (const product of data.brunch){
+        const brunch = new brunch(
+            product.id,
+            product.img,
+            product.name,
+            product.price,
+            product.nodo,
+        );
+        const productRender = brunch.render();
+
+        campo2.appendChild(productRender);
+    };
+    
 };
 
 document.addEventListener('DOMContentLoaded', render);
