@@ -47,12 +47,16 @@ export class panaderia{
         priceElement.innerText = this.price;
         bottomblock.appendChild(priceElement);
 
-        const button = document.createElement("input");
+        const button = document.createElement("button");
+        button.textContent = "More";
         button.classList.add("more");
-        button.value = "More"
         bottomblock.appendChild(button);
 
-        block.appendChild(bottomblock)
+        block.appendChild(bottomblock);
+
+        button.addEventListener("click", () => {
+            window.location.href = "/Description-page/description.html?id";
+        });
 
 
         return block;
@@ -103,9 +107,9 @@ export class brunch{
         priceElement.innerText = this.price;
         bottomblock.appendChild(priceElement);
 
-        const button = document.createElement("input");
+        const button = document.createElement("button");
+        button.textContent = "More";
         button.classList.add("more");
-        button.value = "More"
         bottomblock.appendChild(button);
 
         block.appendChild(bottomblock)
@@ -159,13 +163,12 @@ export class bebidasCaliente{
         priceElement.innerText = this.price;
         bottomblock.appendChild(priceElement);
 
-        const button = document.createElement("input");
+        const button = document.createElement("button");
+        button.textContent = "More";
         button.classList.add("more");
-        button.value = "More"
         bottomblock.appendChild(button);
 
         block.appendChild(bottomblock)
-
 
         return block;
     }

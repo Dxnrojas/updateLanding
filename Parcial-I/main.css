@@ -429,7 +429,7 @@ p{
     text-align: center;
 }
 
-div input.more{
+div button.more{
    width: 5vw;
    height: 4vh;
    border-radius: 0.625rem;
