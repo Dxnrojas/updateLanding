@@ -23,10 +23,15 @@ descripcionProductos.forEach(producto => {
     description.textContent = personaje.description;
     description.classList.add("parrafo");
 
+    const boton = document.createElement("button");
+    boton.textContent = "More";
+    boton.classList.add("boton");
+
 
     cardProducto.appendChild(icon);
     cardProducto.appendChild(name);
     cardProducto.appendChild(description);
+    cardPersonaje.appendChild(boton);
     
     personajes.appendChild(cardProducto);
 
