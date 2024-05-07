@@ -26,7 +26,7 @@ export class panaderia{
         block.classList.add('block');
 
         const block__innerblocks = document.createElement('div');
-        block__innerblocks.classList.add('block__innerblocks');
+        block_innerblocks.classList.add('block_innerblocks');
         block.appendChild(block__innerblocks);
 
         const imgBlockInnerblocks = document.createElement('img');
@@ -86,7 +86,7 @@ export class brunch{
         block.classList.add('block');
 
         const block__innerblocks = document.createElement('div');
-        block__innerblocks.classList.add('block__innerblocks');
+        block_innerblocks.classList.add('block_innerblocks');
         block.appendChild(block__innerblocks);
 
         const imgBlockInnerblocks = document.createElement('img');
@@ -142,7 +142,7 @@ export class bebidasCaliente{
         block.classList.add('block');
 
         const block__innerblocks = document.createElement('div');
-        block__innerblocks.classList.add('block__innerblocks');
+        block_innerblocks.classList.add('block_innerblocks');
         block.appendChild(block__innerblocks);
 
         const imgBlockInnerblocks = document.createElement('img');
@@ -174,5 +174,3 @@ export class bebidasCaliente{
     }
 
 }
-
-
