@@ -40,10 +40,7 @@
             "name": "Mini Fluffys Nutella",
             "price": "$22.900",
             "description": "10 mini pancakes rellenos de Nutella, acompañados con fresa y banano."
-        }
-    ],
-    "brunch":
-    [
+        },
         {
             "id": 6,
             "img": "https://github.com/Dxnrojas/updateLanding/blob/main/Parcial-I/resources/producto6.png?raw=true",
@@ -82,9 +79,7 @@
             "name": "Sándwich Caprese",
             "price": "$26.000",
             "description": "Base de croissant integral con salsa pesto, mozzarella de búfala y tomates confitados en vinagre balsámico."
-        }
-    ],
-    "bebidasCaliente":[
+        },
         {
             "id": 11,
             "img": "https://github.com/Dxnrojas/updateLanding/blob/main/Parcial-I/resources/producto11.png?raw=true",
@@ -125,4 +120,5 @@
             "description": "Café de origen elaborado con espresso y leche al vapor."
         }
     ]
+   
 }
