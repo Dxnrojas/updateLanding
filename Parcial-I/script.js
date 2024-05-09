@@ -3,7 +3,7 @@ import { obtenerProductos, panaderia, brunch, bebidasCaliente} from "./utils.js"
 const render = async () => {
 
     const data = await obtenerProductos();
-
+    console.log(data);
     const campo1 = document.querySelector('#campo1');
 
     for (const producto of data.panaderia){
@@ -12,6 +12,7 @@ const render = async () => {
             producto.img,
             producto.name,
             producto.price,
+            producto.description,
             producto.nodo
         );
         const productoRender = Panaderia.render();
@@ -27,6 +28,7 @@ const render = async () => {
             producto.img,
             producto.name,
             producto.price,
+            producto.description,
             producto.nodo,
         );
         const productoRender = miBrunch.render();
@@ -42,6 +44,7 @@ const render = async () => {
             producto.img,
             producto.name,
             producto.price,
+            producto.description,
             producto.nodo,
         );
         const productoRender = bebidasCalientes.render();
